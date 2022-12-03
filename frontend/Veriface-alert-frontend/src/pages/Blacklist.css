@@ -1,0 +1,29 @@
+input {
+    background: #1A1B23 !important;
+    color: white !important;
+    padding: 15px 10px !important;
+    border: 1.2px solid #B980FF !important;
+}
+
+.main {
+    background: #1A1B23;
+    border-radius: 10px;
+}
+
+#b-section {
+    display: flex !important;
+}
+
+#b-section-sm {
+    display: none !important;
+}
+
+@media screen and (max-width: 400px) {
+    #b-section {
+        display: none !important;
+    }
+
+    #b-section-sm {
+        display: flex !important;
+    }
+}

@@ -1,0 +1,148 @@
+.buy-area {
+    border: 1px solid gray;
+    border-radius: 30px;
+    /* From https://css.glass */
+    background: rgba(249, 186, 186, 0.3);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(2.9px);
+    -webkit-backdrop-filter: blur(2.9px);
+    border: 2px solid rgba(255, 255, 255, 0.31);
+}
+
+.back {
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.back::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: url('../assets/bubble.png');
+    background-position: center;
+    background-size: cover;
+    opacity: 0.2;
+    box-shadow: 0 0 60px 60px rgb(250, 122, 122) inset;
+
+}
+
+.header {
+    font-size: 80px;
+    color: white;
+    letter-spacing: 0.2cm;
+    font-weight: 300;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.round {
+    border-radius: 200px !important;
+    text-align: center;
+}
+
+.text-pink {
+    color: rgb(255, 144, 181) !important;
+    font-weight: 700;
+}
+
+.btn-pink {
+    padding: 10px 200px !important;
+    background: rgb(255, 95, 172) !important;
+    border: none !important;
+    font-size: 18px !important;
+}
+
+.btn-pink:active {
+    border: 2px solid rgb(255, 95, 172) !important;
+}
+
+.join {
+    font-weight: 900;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.user {
+    background: rgb(217, 255, 217);
+    border-radius: 30px;
+}
+
+.header-body {
+    overflow-x: scroll !important;
+}
+
+.card-o {
+    box-shadow: 1px 1px 15px rgb(228, 234, 236);
+    border-radius: 10px;
+}
+
+.expand:hover {
+    cursor: pointer;
+    color: blue;
+}
+
+.expand {
+    cursor: pointer;
+    color: rgb(11, 8, 8);
+}
+
+.balance-red {
+    font-weight: bold;
+    color: rgb(255, 0, 21) !important;
+}
+
+.balance-green {
+    font-weight: bold;
+    color: rgb(0, 255, 128) !important;
+}
+
+.ok {
+    color: rgb(0, 255, 128) !important;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.selectedTab {
+    background: #a760fe;
+    border-radius: 30px;
+    cursor: pointer;
+    color: white;
+}
+
+
+.deselectedTab {
+    background: #B980FF;
+    color: black;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: 0.5 ease-in-out;
+}
+
+.alert-bg {
+    background: #b77cff !important;
+    border: none !important;
+    color: #160e1f !important;
+    font-weight: 450;
+}
+
+#b-tabs {
+    display: flex !important;
+}
+
+#b-tabs-sm {
+    display: none !important;
+}
+
+@media screen and (max-width: 400px) {
+    #b-tabs {
+        display: none !important;
+    }
+
+    #b-tabs-sm {
+        display: flex !important;
+    }
+}
