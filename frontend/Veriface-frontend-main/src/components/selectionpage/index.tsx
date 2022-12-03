@@ -39,7 +39,7 @@ const SelectionPage = () => {
           Icon={MdOutlineCreateNewFolder}
           btnText="Create Proposal"
           content="Get rid of bad actors in the crypto ecosystem by submitting a proposal to get them blacklisted."
-          href="/createProposal"
+          href="https://veriface-alert.netlify.app/"
         />
         <SelectionCard
           Icon={MdPersonSearch}

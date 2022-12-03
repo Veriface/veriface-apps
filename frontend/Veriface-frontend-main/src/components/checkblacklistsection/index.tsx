@@ -94,8 +94,8 @@ const PageContent = styled.div`
     margin-top: 3rem;
 
     & > div {
-      width: 16px;
-      height: 16px;
+      width: 10px;
+      height: 10px;
       margin: 3px 6px;
       border-radius: 50%;
       background-color: #fff;
