@@ -18,7 +18,7 @@ Veriface integration for your solidity smart contracts is quite simple, as simpl
 
 
 # The Interface(Product use)
-### Implement the Veriface Interface and watch it start to work.
+### Smart contract intergrations.
 
 Integrating veriface in your smart contracts is simple and stress-free with just a few lines of code you have the power of our security protocol at your fingertips.
 Declaring the interface to check if an address is marked as blacklisted by our protocol and to require only whitelisted addresses to interact with a specific function in your smart contract
@@ -91,6 +91,7 @@ Tech Stack:
 - Ethers.js
 - Vercel
 - Styled Components
+- Moralis
 
 ## Product use
 - The frontend interface allows anyone to quickly see whether an account has been blacklisted
