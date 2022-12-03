@@ -91,6 +91,7 @@ Tech Stack:
 - Ethers.js
 - Vercel
 - Styled Components
+- Moralis
 
 ## Product use
 - The frontend interface allows anyone to quickly see whether an account has been blacklisted
