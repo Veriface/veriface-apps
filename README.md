@@ -117,3 +117,6 @@ or whitelisted by the veriface DAO
 
 #### The vefi dao
 ![<img src="https://cdn.discordapp.com/attachments/1041029251165585519/1047558953023840346/Screenshot_83.png" width="190px" />](https://cdn.discordapp.com/attachments/1041029251165585519/1047558953023840346/Screenshot_83.png)
+
+## Documentation
+https://veriface.gitbook.io/veriface/
