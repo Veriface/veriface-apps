@@ -1,7 +1,7 @@
 import { ethers } from "ethers";
 
 const connectContract = () => {
-  const contractAddress = "0x94D0F59E3cf56537C32D6e2BD4Ba860F5A76659E";
+  const contractAddress = "0xb3C64A8D69E5C9A2A610329A5a4A7faA82c64BFD";
   const contractABI = require("../src/ABI.json");
 
   const provider = new ethers.providers.JsonRpcProvider(
