@@ -4,12 +4,6 @@
 
 https://veriface.vercel.app/
 
-## Tech stack
-- Mumbai(Polygon Testnet)
-- Solidity
-- Python
-- Brownie
-
 ## Description
 
 Web3 is awesome and fun decentralization makes it quite unique. However, one cannot ignore the increasing number of bad actors in space. 
@@ -19,6 +13,13 @@ Veriface integration for your solidity smart contracts is quite simple, as simpl
 
 
 # The Interface(Product use)
+
+## Tech stack
+- Mumbai(Polygon Testnet)
+- Solidity
+- Python
+- Brownie
+
 ### Smart contract intergrations.
 
 Integrating veriface in your smart contracts is simple and stress-free with just a few lines of code you have the power of our security protocol at your fingertips.
