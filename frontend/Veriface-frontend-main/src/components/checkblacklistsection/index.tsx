@@ -81,6 +81,13 @@ const PageContent = styled.div`
     ${mediaQueries.phone} {
       padding: 5rem 0;
     }
+
+    ${mediaQueries.smallerphone} {
+      padding: 3rem 2rem;
+      align-items: flex-start;
+      gap: 1rem;
+      overflow-x: scroll;
+    }
   }
 
   .loader {
