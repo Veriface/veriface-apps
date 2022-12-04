@@ -7,7 +7,6 @@
 - Solidity
 - Python
 - Brownie
-- Aragon
 
 ## Description
 
